@@ -7,8 +7,6 @@
 }
 
 *, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -272,6 +270,7 @@ h1, h2, h3, h4, h5, h6 {
 .home-section .home-information .home-contact .home-contact__row-adress {
   position: relative;
   z-index: 1;
+  height: -moz-fit-content;
   height: fit-content;
   display: flex;
   justify-content: end;
@@ -294,7 +293,8 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.5);
   background: rgba(255, 255, 255, 0.01);
-  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+          backdrop-filter: blur(5.5px);
 }
 .home-section .home-information .home-contact .home-contact__row-adress .home-contact__adress span {
   display: flex;
@@ -314,6 +314,7 @@ h1, h2, h3, h4, h5, h6 {
 .home-section .home-information .home-contact .home-contact__row-phone {
   position: relative;
   z-index: 1;
+  height: -moz-fit-content;
   height: fit-content;
   display: flex;
   width: 100%;
@@ -336,7 +337,8 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.5);
   background: rgba(255, 255, 255, 0.01);
-  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+          backdrop-filter: blur(5.5px);
 }
 .home-section .home-information .home-contact .home-contact__row-phone .home-contact__phone span {
   display: flex;
@@ -765,6 +767,10 @@ h1, h2, h3, h4, h5, h6 {
   text-align: start;
   padding: 20px 0;
   margin-bottom: 30px;
+}
+.feedback-section .feedback-form__wrap .feedback-form .form-input::-moz-placeholder {
+  color: #FFF;
+  opacity: 0.5;
 }
 .feedback-section .feedback-form__wrap .feedback-form .form-input::placeholder {
   color: #FFF;
@@ -1375,6 +1381,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 4px;
     background: #2F3280;
     position: absolute;
+    width: -moz-max-content;
     width: max-content;
   }
   .mob-image__wrap .mob-image__point img {
@@ -1787,4 +1794,4 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: space-between;
   }
-}
+}/*# sourceMappingURL=style.css.map */
