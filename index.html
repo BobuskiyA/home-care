@@ -15,16 +15,16 @@
 		</div>
 		<div class="header-menu">
 			<ul class="menu-list">
-				<li class="menu-item active-menu"><a href="#" class="menu-link">Home</a></li>
-				<li class="menu-item"><a href="#" class="menu-link">Joining our team</a></li>
-				<li class="menu-item"><a href="#" class="menu-link">About us</a></li>
-				<li class="menu-item"><a href="#" class="menu-link">Services</a></li>
-				<li class="menu-item"><a href="#" class="menu-link">Hiring</a></li>
-				<li class="menu-item"><a href="#" class="menu-link">Contacts</a></li>
+				<li class="menu-item active-menu"><a href="/" class="menu-link">Home</a></li>
+				<li class="menu-item"><a href="#feedback" class="menu-link">Joining our team</a></li>
+				<li class="menu-item"><a href="#about" class="menu-link">About us</a></li>
+				<li class="menu-item"><a href="#service" class="menu-link">Services</a></li>
+				<li class="menu-item"><a href="#hiring" class="menu-link">Hiring</a></li>
+				<li class="menu-item"><a href="#contact" class="menu-link">Contacts</a></li>
 			</ul>
 		</div>
 		<div class="header-phone">
-			<a href="#" class="phone-link">
+			<a href="tel:215-531-7882" class="phone-link">
 				<img src="/images/phone.png" alt="phone" class="phone-icone">
 				215-5317882
 			</a>
@@ -38,16 +38,16 @@
 			</div>
 			<div class="header-menu">
 				<ul class="menu-list">
-					<li class="menu-item active-menu"><a href="#" class="menu-link">Home</a></li>
-					<li class="menu-item"><a href="#" class="menu-link">Joining our team</a></li>
-					<li class="menu-item"><a href="#" class="menu-link">About us</a></li>
-					<li class="menu-item"><a href="#" class="menu-link">Services</a></li>
-					<li class="menu-item"><a href="#" class="menu-link">Hiring</a></li>
-					<li class="menu-item"><a href="#" class="menu-link">Contacts</a></li>
+					<li class="menu-item active-menu"><a href="/" class="menu-link">Home</a></li>
+					<li class="menu-item"><a href="#feedback" class="menu-link">Joining our team</a></li>
+					<li class="menu-item"><a href="#about" class="menu-link">About us</a></li>
+					<li class="menu-item"><a href="#service" class="menu-link">Services</a></li>
+					<li class="menu-item"><a href="#hiring" class="menu-link">Hiring</a></li>
+					<li class="menu-item"><a href="#contact" class="menu-link">Contacts</a></li>
 				</ul>
 			</div>
 			<div class="header-phone">
-				<a href="#" class="phone-link">
+				<a href="tel:215-531-7882" class="phone-link">
 					<img src="/images/phone.png" alt="phone" class="phone-icone">
 					215-5317882
 				</a>
@@ -99,12 +99,12 @@
 				</div>
 			</div>
 			<div class="home-button__group">
-				<button class="home-button__join">
+				<a href="#feedback" class="home-button__join">
 					Join our team
-				</button>
-				<button class="home-button__apply">
+				</a>
+				<a href="#feedback" class="home-button__apply">
 					Apply for service
-				</button>
+				</a>
 			</div>
 			<div class="mob">
 				<div class="mob-review">
@@ -113,7 +113,7 @@
 			</div>
 			<div class="home-contact">
 				<div class="home-contact__row-adress">
-					<a href="#" class="home-contact__adress">
+					<a href="https://maps.app.goo.gl/zSg5BCpvFwb2f5tZ9" class="home-contact__adress">
 						<span>Address:</span>
 						3231 N 2nd St
 						<br>
@@ -121,7 +121,7 @@
 					</a>
 				</div>
 				<div class="home-contact__row-phone">
-					<a href="#" class="home-contact__phone">
+					<a href="tel:215-531-7882" class="home-contact__phone">
 						<span>Phone:</span>
 						215-5317882
 					</a>
@@ -241,12 +241,12 @@
 			<img class="mob" src="/images/doctors2.png" alt="doctors">
 		</div>
 		<div class="doctors-button">
-			<a href="#" class="doctors-link doctors-apply">Apply for Services</a>
-			<a href="#" class="doctors-link doctors-join">Join Our Team</a>
-			<a href="#" class="doctors-link doctors-call">Call Us</a>
+			<a href="#feedback" class="doctors-link doctors-apply">Apply for Services</a>
+			<a href="#feedback" class="doctors-link doctors-join">Join Our Team</a>
+			<a href="#contact" class="doctors-link doctors-call">Call Us</a>
 		</div>
 	</div>
-	<div class="advantage-section">
+	<div id="about" class="advantage-section">
 		<div class="advantage-wrap">
 			<h2 class="advantage-title">Why All American Health Care?</h2>
 			<p class="advantage-subtitle">
@@ -280,7 +280,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="service-section">
+	<div id="service" class="service-section">
 		<div class="service-item">
 			<div class="service-item__row row-first">
 				<div class="service-item__point">
@@ -387,7 +387,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="feedback-section">
+	<div id="feedback" class="feedback-section">
 		<div class="feedback-information">
 			<div class="feedback-information__title">
 				<h2>
@@ -404,10 +404,10 @@
 			</div>
 		</div>
 		<div class="feedback-form__wrap">
-			<form action="#" class="feedback-form">
+			<form id="form" action="#" method="get" class="feedback-form">
 				<h3 class="form-title">I am a</h3>
 				<div class="form-button__group">
-					<input class="form-button" type="radio" id="client" name="sender" checked>
+					<input class="form-button" type="radio" id="client" value="client" name="sender" checked>
 					<label for="client">
 						<p>Client</p>
 						<svg height="28px" width="28px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -428,7 +428,7 @@
 						</g>
 						</svg>
 					</label>
-					<input class="form-button" type="radio" id="caregiver" name="sender">
+					<input class="form-button" type="radio" id="caregiver" value="caregiver" name="sender">
 					<label for="caregiver">
 						<p>Caregiver</p>
 						<svg width="28px" height="28px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -440,18 +440,19 @@
 					</label>
 				</div>
 				<div class="form-input__group">
-					<input class="form-input" type="text" placeholder="First name*" required>
-					<input class="form-input" type="text" placeholder="Last name*" required>
-					<input class="form-input" type="text" placeholder="Phone number*" required>
-					<input class="form-input" type="text" placeholder="Zip Code*" required>
+					<input class="form-input firstname" type="text" placeholder="First name*" name="firstname" required>
+					<input class="form-input lastname" type="text" placeholder="Last name*" name="lastname" required>
+					<input class="form-input phone" type="text" placeholder="Phone number*" name="phone" required>
+					<input class="form-input zip" type="text" placeholder="Zip Code*" name="zip" required>
 				</div>
-				<select class="form-select" name="name">
+				<select class="form-select service" name="service">
 					<option value="I">I already have services</option>
 					<option value="I already">I already have services</option>
 					<option value="I already have">I already have services</option>
 					<option value="I already have services">I already have services</option>
 				</select>
-				<input class="form-submit" type="submit" value="Submit">
+				<input class="form-submit submit" type="submit" value="Submit">
+				<span class="valid"></span>
 				<p class="form-description">By clicking the button, you agree to our Terms of Use and Privacy Policy.</p>
 			</form>
 		</div>
@@ -544,7 +545,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="palliative-group">
+		<div id="hiring" class="palliative-group">
 			<div class="palliative-row">
 				<div class="palliative-main">
 					<h3 class="palliative-title">
@@ -594,7 +595,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="call-section">
+	<div id="contact" class="call-section">
 		<div class="call-wrap">
 			<h3 class="call-title">Let's get in touch</h3>
 			<p class="call-subtitle">For more information, please call us at 215-5317882</p>
@@ -604,13 +605,13 @@
 		<div class="footer-wrap desk">
 			<div class="column first-col">
 				<ul class="menu">
-					<li class="menu-item"><a href="#">Home</a></li>
-					<li class="menu-item"><a href="#">About us</a></li>
-					<li class="menu-item"><a href="#">Services</a></li>
-					<li class="menu-item"><a href="#">Hiring</a></li>
-					<li class="menu-item"><a href="#">Contacts</a></li>
+					<li class="menu-item"><a href="/">Home</a></li>
+					<li class="menu-item"><a href="#about">About us</a></li>
+					<li class="menu-item"><a href="#service">Services</a></li>
+					<li class="menu-item"><a href="#hiring">Hiring</a></li>
+					<li class="menu-item"><a href="#contact">Contacts</a></li>
 				</ul>
-				<a href="#" class="phone-link">
+				<a href="tel:215-531-7882" class="phone-link">
 					<img src="/images/phone.png" alt="phone" class="phone-icone">
 					215-5317882
 				</a>
@@ -639,7 +640,7 @@
 						<img src="/images/linkedin.png" alt="linkedin">
 					</a></li>
 				</ul>
-				<a href="#" class="mail-link">
+				<a href="mailto:mspivak@myallamericancare.com" class="mail-link">
 					<img src="/images/mail.png" alt="mail" class="mail-icone">
 					mspivak@myallamericancare.com
 				</a>
@@ -658,11 +659,11 @@
 				<li class="menu-item"><a href="#">Employee portal</a></li>
 			</ul>
 			<div class="footer-contact">
-				<a href="#" class="phone-link">
+				<a href="tel:215-531-7882" class="phone-link">
 					<img src="/images/phone-mob.png" alt="phone" class="phone-icone">
 					215-5317882
 				</a>
-				<a href="#" class="mail-link">
+				<a href="mailto:mspivak@myallamericancare.com" class="mail-link">
 					<img src="/images/mail-mob.png" alt="mail" class="mail-icone">
 					mspivak@myallamericancare.com
 				</a>

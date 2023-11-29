@@ -726,6 +726,23 @@ $maxWidth: 1920;
 				width: 35%;
 				margin-bottom: 30px;
 			}
+			.valid {
+				color: #FFF;
+				text-align: center;
+				font-family: Lato;
+				font-size: 15px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: 120%; /* 14.4px */
+				width: 40%;
+				margin-bottom: 15px;
+			}
+			.ok {
+				color: rgb(92, 235, 92);
+			}
+			.not {
+				color: red;
+			}
 			.form-description {
 				color: #FFF;
 				text-align: center;

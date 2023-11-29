@@ -805,6 +805,23 @@ h1, h2, h3, h4, h5, h6 {
   width: 35%;
   margin-bottom: 30px;
 }
+.feedback-section .feedback-form__wrap .feedback-form .valid {
+  color: #FFF;
+  text-align: center;
+  font-family: Lato;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 14.4px */
+  width: 40%;
+  margin-bottom: 15px;
+}
+.feedback-section .feedback-form__wrap .feedback-form .ok {
+  color: rgb(92, 235, 92);
+}
+.feedback-section .feedback-form__wrap .feedback-form .not {
+  color: red;
+}
 .feedback-section .feedback-form__wrap .feedback-form .form-description {
   color: #FFF;
   text-align: center;
