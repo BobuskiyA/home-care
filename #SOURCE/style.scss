@@ -101,7 +101,6 @@
 	display: flex;
 	padding: 20px;
 	flex-direction: column;
-	gap: 32px;
 	border-radius: 8px;
 	background: #D4DFFC;
 	color: #2F3280;
@@ -247,11 +246,12 @@ $maxWidth: 1920;
 		}
 		.home-button__group {
 			display: flex;
-			justify-content: space-evenly;
+			justify-content: center;
 			margin-bottom: 25px;
 			.home-button__join {
 				@include home-button;
 				background: linear-gradient(180deg, #C22A35 0%, #A61822 100%);
+				margin-right: 15px;
 			}
 			.home-button__apply {
 				@include home-button;
@@ -310,6 +310,9 @@ $maxWidth: 1920;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
+		.home-review__google {
+			margin-bottom: 15px;
+		}
 	}
 }
 
@@ -392,6 +395,25 @@ $maxWidth: 1920;
 			font-style: normal;
 			font-weight: 700;
 			line-height: 120%; /* 24px */
+		}
+		.item__partner {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 20%;
+			img {
+				width: 200px;
+			}
+		}
+		.item__partner-licensing {
+			img {
+				width: 150px;
+			}
+		}
+		.item__partner-tv {
+			img {
+				width: 90px;
+			}
 		}
 	}
 }
@@ -1552,12 +1574,12 @@ $maxWidth: 1920;
 		margin-bottom: 30px;
 	}
 	.special-section .special-group .special-item__group .special-item.small {
-		width: 49%;
-		height: 175px;
+		width: 150px;
+		height: 150px;
 	}
 	.special-section .special-group .special-item__group .special-item.wide {
-		width: 49%;
-		height: 175px;
+		width: 150px;
+		height: 150px;
 	}
 	.special-section .special-group .special-description {
 		width: 100%;

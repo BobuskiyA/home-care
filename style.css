@@ -214,7 +214,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .home-section .home-information .home-button__group {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-bottom: 25px;
 }
 .home-section .home-information .home-button__group .home-button__join {
@@ -232,6 +232,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 120%; /* 24px */
   background: linear-gradient(180deg, #C22A35 0%, #A61822 100%);
+  margin-right: 15px;
 }
 .home-section .home-information .home-button__group .home-button__apply {
   display: flex;
@@ -364,6 +365,9 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   justify-content: space-between;
 }
+.home-section .home-review .home-review__google {
+  margin-bottom: 15px;
+}
 
 .command-section {
   margin: 0 0 50px;
@@ -446,6 +450,21 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   font-weight: 700;
   line-height: 120%; /* 24px */
+}
+.partner-section .partner-list .item__partner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+.partner-section .partner-list .item__partner img {
+  width: 200px;
+}
+.partner-section .partner-list .item__partner-licensing img {
+  width: 150px;
+}
+.partner-section .partner-list .item__partner-tv img {
+  width: 90px;
 }
 
 .doctors-section {
@@ -584,7 +603,6 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   padding: 20px;
   flex-direction: column;
-  gap: 32px;
   border-radius: 8px;
   background: #D4DFFC;
   color: #2F3280;
@@ -1037,7 +1055,6 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   padding: 20px;
   flex-direction: column;
-  gap: 32px;
   border-radius: 8px;
   background: #D4DFFC;
   color: #2F3280;
@@ -1083,7 +1100,6 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   padding: 20px;
   flex-direction: column;
-  gap: 32px;
   border-radius: 8px;
   background: #D4DFFC;
   color: #2F3280;
@@ -1657,12 +1673,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
   }
   .special-section .special-group .special-item__group .special-item.small {
-    width: 49%;
-    height: 175px;
+    width: 150px;
+    height: 150px;
   }
   .special-section .special-group .special-item__group .special-item.wide {
-    width: 49%;
-    height: 175px;
+    width: 150px;
+    height: 150px;
   }
   .special-section .special-group .special-description {
     width: 100%;
