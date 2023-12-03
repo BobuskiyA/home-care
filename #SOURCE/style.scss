@@ -1582,16 +1582,19 @@ $maxWidth: 1920;
 	.special-section .special-group .special-item__group .special-item.small {
 		width: 150px;
 		height: 150px;
+		background: url('/images/special-back-mob.png') 0 0/100% 100% no-repeat;
 	}
 	.special-section .special-group .special-item__group .special-item.wide {
 		width: 150px;
 		height: 150px;
+		background: url('/images/special-back-mob.png') 0 0/100% 100% no-repeat;
 	}
 	.special-section .special-group .special-description {
 		width: 100%;
 	}
 	.special-section .special-group .special-description .special-item.hide {
 		padding: 25px;
+		background: url('/images/special-back-mob-wide.png') 0 0/100% 100% no-repeat;
 	}
 	.pa-section {
 		display: none;
