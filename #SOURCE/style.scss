@@ -1573,6 +1573,12 @@ $maxWidth: 1920;
 		width: 100%;
 		margin-bottom: 30px;
 	}
+	.special-section .special-group .special-item__group .special-item {
+		line-height: 60%;
+	}
+	.special-section .special-group .special-item__group .special-item span {
+		font-size: 18px;
+	}
 	.special-section .special-group .special-item__group .special-item.small {
 		width: 150px;
 		height: 150px;
